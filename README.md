@@ -1,6 +1,6 @@
-# Algoritmo e Estrutura de Dados II
+# 🧩 Algoritmo e Estrutura de Dados II
 
-# 🧩 Explorador de território (jogo 2D) AVL + GRAFO
+# 🎮 Explorador de território (jogo 2D) AVL + GRAFO
 Bem-vindo ao repositório do trabalho prático da disciplina de **Algoritmo e Estrutura de Dados II**.  
 Este projeto tem como objetivo desenvolver um jogo, proporcionando a prática do conhecimento adquirido sobre Árvores AVL e gráfos.  
 
