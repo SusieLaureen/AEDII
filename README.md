@@ -11,7 +11,7 @@ Este projeto tem como objetivo desenvolver um jogo, proporcionando a prática do
 ## 📚 Sumário
 
 - [📌 Plano de Trabalho](#-Plano-de-trabalho)
-- [⚙️ Produto Minimo Viavel](#️-produto-minimo-viavel)
+- [⚙️ Produto](#️-produto-minimo-viavel)
 
 
 ---
@@ -22,6 +22,14 @@ Documentação inicial do projeto, incluindo a definição de papéis, escopo, c
 
 📁 Acesse a pasta: [`Plano-de-trabalho`](Plano-de-trabalho)
  
+---
+
+## ⚙️ [Produto](Produto)
+
+Aqui está o código desenvolvido para o mini sistema.  
+
+📂 Acesse a pasta: [`Produto´](Produto)
+
 ---
 
 ## 👥 Equipe
