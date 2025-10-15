@@ -28,7 +28,7 @@ Documentação inicial do projeto, incluindo a definição de papéis, escopo, c
 
 Aqui está o código desenvolvido para o mini sistema.  
 
-📂 Acesse a pasta: [`Produto´](Produto)
+📂 Acesse a pasta: [`Produto`](Produto)
 
 ---
 
