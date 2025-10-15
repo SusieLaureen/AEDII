@@ -31,11 +31,6 @@ Documentação inicial do projeto, incluindo a definição de papéis, escopo, c
  
 ---
 
-## 🎯 Objetivo Geral
-Desenvolver um jogo com árvores AVL e grafo.
-
----
-
 ## 👥 Equipe
 
 | Integrante       | Função           |
