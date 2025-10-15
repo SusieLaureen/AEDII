@@ -61,6 +61,7 @@ Explorar o máximo de regiões possíveis, coletando recursos ou completando uma
 - O jogador se move para Região B → o sistema usa o grafo para validar o caminho.
 - Região B contém uma nova AVL com itens e criaturas.
 
+
 ---
 ## 1.2 Escopo Negativo
 Abaixo está o que deve ficar fora do escopo:
@@ -79,6 +80,7 @@ Abaixo está o que deve ficar fora do escopo:
 > - Permitir exploração e interação simples (visual e lógica)
 > Nada mais.
 > Ou seja, o jogo serve como uma visualização interativa das estruturas de dados — não como um produto de entretenimento completo.
+
 
 ---
 
