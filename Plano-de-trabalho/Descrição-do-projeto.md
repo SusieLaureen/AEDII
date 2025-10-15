@@ -79,10 +79,14 @@ Explorar o máximo de regiões possíveis, coletando recursos ou completando uma
 > Nada mais.
 > Ou seja, o jogo serve como uma visualização interativa das estruturas de dados — não como um produto de entretenimento completo.
 
+---
+
 # 2. Resultados Esperados
 
 - Algoritmo funcional disponível no GitHub
 - Interface intuitiva para o usuário
+
+---
 
 # 3. Requisitos técnicos (Código)
 - VS Code
