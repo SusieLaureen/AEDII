@@ -10,24 +10,17 @@ Este projeto tem como objetivo desenvolver um jogo, proporcionando a prática do
 
 ## 📚 Sumário
 
-- [📌 Plano de Trabalho](#-plano-de-trabalho)
-- [🧩 Design Thinking](#-design-thinking)
-- [📝 Backlog do Produto](#-backlog-do-produto)
-- [📆 Backlog do Sprint](#-backlog-do-sprint)
-- [🧱 Arquitetura do Software](#-arquitetura-do-software)
-- [⚙️ Testes e Validações](#️-testes-e-validações)
+- [📌 Plano de Trabalho](#-Plano-de-trabalho)
 - [⚙️ Produto Minimo Viavel](#️-produto-minimo-viavel)
-- [🧾 Reuniões ](#-reuniões)
-- [🎥 Apresentações](#-apresentações)
-- [👥 Equipe](#-equipe)
+
 
 ---
 
-## 📌 [Plano de Trabalho](1_plano-de-trabalho)
+## 📌 [Plano de Trabalho](Plano-de-trabalho)
 
 Documentação inicial do projeto, incluindo a definição de papéis, escopo, cronograma e planejamento das entregas.
 
-📁 Acesse a pasta: [`1_plano-de-trabalho`](1_plano-de-trabalho)
+📁 Acesse a pasta: [`Plano-de-trabalho`](Plano-de-trabalho)
  
 ---
 
