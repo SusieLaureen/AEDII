@@ -53,13 +53,31 @@ Explorar o máximo de regiões possíveis, coletando recursos ou completando uma
 | `jogo.py`      | Controla a lógica principal (movimento, exploração)  |
 | `interface.py` | Renderiza o mapa e interação 2D                      |
 
+#### 💡 Possível exemplo de Caso de Uso
+
+- O jogador inicia na Região A (nó do grafo).
+- A AVL de A contém: {“madeira”: 3, “ferro”: 2}.
+- O jogador coleta “ferro” → AVL é atualizada.
+- O jogador se move para Região B → o sistema usa o grafo para validar o caminho.
+- Região B contém uma nova AVL com itens e criaturas.
+
 ---
 ## 1.2 Escopo Negativo
 
-- O app não terá integração com redes sociais externas
-- Não serão implementadas funcionalidades de inteligência artificial voltadas à previsão de comportamentos, estados emocionais ou padrões de uso com base em dados históricos dos usuários
-- Não será desenvolvida uma versão web do sistema
+- Gráficos Avançados ou Física de Jogo
+- Sistemas de Combate, IA de Inimigos ou NPCs Inteligentes
+- Multijogador ou Conexão em Rede
+- Persistência Complexa (Banco de Dados)
+- Sistema de Sons, Música ou Diálogos
+- Economia, Missões Complexas ou Narrativa Elaborada
+- Integração com APIs externas ou recursos online
 
+> ✅ Resumo: foco do projeto
+> - Modelar territórios como grafos
+> - Gerenciar recursos em cada território com AVL
+> - Permitir exploração e interação simples (visual e lógica)
+> Nada mais.
+> Ou seja, o jogo serve como uma visualização interativa das estruturas de dados — não como um produto de entretenimento completo.
 
 # 2. Resultados Esperados
 
