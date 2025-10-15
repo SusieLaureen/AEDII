@@ -63,6 +63,7 @@ Explorar o máximo de regiões possíveis, coletando recursos ou completando uma
 
 ---
 ## 1.2 Escopo Negativo
+Abaixo está o que deve ficar fora do escopo:
 
 - Gráficos Avançados ou Física de Jogo
 - Sistemas de Combate, IA de Inimigos ou NPCs Inteligentes
