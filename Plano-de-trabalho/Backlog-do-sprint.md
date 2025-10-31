@@ -1,7 +1,7 @@
 # Backlog do Sprint
 
 ## Introdução
-O Backlog do Sprint acompanha as tarefas distribuídas entre os integrantes do grupo, com base nas dailys do produto.
+O Backlog do Sprint acompanha as tarefas distribuídas entre os integrantes do grupo, com base nas dailys do produto (cronograma e tarefas)
 
 ---
 ## Link das Dailys no Notion
