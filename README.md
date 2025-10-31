@@ -12,6 +12,7 @@ Este projeto tem como objetivo desenvolver um jogo, proporcionando a prática do
 
 - [📌 Plano de Trabalho](#-Plano-de-trabalho)
 - [⚙️ Produto](#️-produto)
+- [⚙️ Design thinking](#️-design-thinking)
 
 
 ---
