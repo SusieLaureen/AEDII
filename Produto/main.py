@@ -1,9 +1,6 @@
 # ===========================================
 # main.py — Explorador de Território 2D 
 # ===========================================
-# Trabalho Prático — Estruturas de Dados II
-# Professor: Alternei Brito (UFAM)
-#
 # Estruturas utilizadas:
 #   - Grafo: representação do mapa (labirinto)
 #   - Árvore AVL: inventário do jogador
