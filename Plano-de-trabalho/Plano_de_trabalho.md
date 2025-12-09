@@ -14,8 +14,6 @@ Deve permitir:-Adicionar/remover regiões e conexões; -Buscar caminhos (BFS/DFS
 
 #### b) Árvore AVL (Dados Internos de Cada Região)
 Cada região possui sua própria árvore AVL armazenando elementos do território, por exemplo:
-- Recursos (madeira, minério, água, etc.)
-- Criaturas
 - Itens coletáveis
 
 Deve permitir:-Inserir, remover e buscar elementos com balanceamento;-Listar os elementos em ordem (in-order); -Consultar rapidamente o item mais valioso/mais raro.
@@ -46,17 +44,18 @@ Explorar o máximo de regiões possíveis, coletando recursos ou completando uma
 
 | Módulo         | Responsabilidade                                     |
 | -------------- | ---------------------------------------------------- |
-| `grafo.py`     | Implementa o grafo e suas operações                  |
-| `avl_tree.py`  | Implementa a árvore AVL e operações de balanceamento |
-| `regiao.py`    | Representa uma região (nó do grafo) com sua AVL      |
-| `jogador.py`   | Armazena informações e posição do jogador            |
-| `jogo.py`      | Controla a lógica principal (movimento, exploração)  |
+| `graph.py`     | Implementa o grafo e suas operações                  |
+| `tree.py`  | Implementa a árvore AVL e operações de balanceamento |
+| `player.py`   | Armazena informações e posição do jogador            |
 | `interface.py` | Renderiza o mapa e interação 2D                      |
+| `main.py` | diretório principal                      |
+| `world.py` | Geração de mundo em 15*15                      |
+| `save_load.py` | Responsável por gravar e restaurar o estado do jogo com posição do jogador e itens do inventário (AVL)                      |
 
 #### 💡 Possível exemplo de Caso de Uso
 
 - O jogador inicia na Região A (nó do grafo).
-- A AVL de A contém: {“madeira”: 3, “ferro”: 2}.
+- A AVL de A contém: {“madeira”: 3, “fero”: 2}.
 - O jogador coleta “ferro” → AVL é atualizada.
 - O jogador se move para Região B → o sistema usa o grafo para validar o caminho.
 - Região B contém uma nova AVL com itens e criaturas.
