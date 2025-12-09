@@ -1,12 +1,6 @@
 # ===========================================
 # player.py — Classe do Jogador 
 # ===========================================
-# O jogador possui:
-# - nome
-# - posição atual (sala no grafo)
-# - inventário (árvore AVL do tree.py)
-# - step_count (contador de passos para estatísticas)
-# ===========================================
 
 from tree import AVLTree
 
@@ -15,9 +9,10 @@ class Player:
 
     def __init__(self, name, start_position):
         self.name = name
-        self.position = start_position  # posição atual (sala no grafo)
+        self.position = start_position  # posição atual 
         self.inventory = AVLTree()      # inventário como árvore AVL
-        self.step_count = 0             # Contador de passos para estatísticas
+        self.step_count = 0    
+        self.history = [start_position]        
 
     # ===============================
     # Movimento
@@ -26,10 +21,8 @@ class Player:
         """Move o jogador para uma nova sala."""
         # Atualiza a posição
         self.position = new_position
-        
-        # Incrementa o contador de passos
         self.step_count += 1
-        
+        self.history.append(new_position)
     # ===============================
     # Gerenciamento do inventário
     # ===============================
