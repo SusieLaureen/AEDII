@@ -3,13 +3,6 @@
 # ===========================================
 # Usado como MAPA no jogo Explorador de Território 2D.
 # Cada vértice é uma sala; cada aresta é um caminho entre salas.
-#
-# Inclui:
-#   - Inserção e remoção de vértices/arestas
-#   - Consulta de vizinhos
-#   - Exibição do mapa
-#   - BFS (Busca em Largura) — caminho mais curto
-#   - DFS (Busca em Profundidade) — percurso completo
 # ===========================================
 
 from collections import deque
@@ -137,3 +130,44 @@ class Graph:
                 ordem.extend(self.dfs(vizinho, visitados))
 
         return ordem
+
+    def get_collection_path(self, start_node, items_nodes, exit_node):
+            """
+            Calcula a rota aproximada para pegar todos os itens e depois sair.
+            Usa lógica 'Vizinho Mais Próximo': Onde estou -> Item mais perto -> Próximo -> Saída.
+            """
+            full_path = []
+            current_pos = start_node
+            to_collect = list(items_nodes) 
+            
+            while to_collect:
+                closest_item = None
+                shortest_dist = float('inf')
+                path_segment = []
+
+                for item in to_collect:
+                    path = self.bfs(current_pos, item)
+                    if path and len(path) < shortest_dist:
+                        shortest_dist = len(path)
+                        closest_item = item
+                        path_segment = path
+
+                if closest_item:
+                    if full_path:
+                        full_path.extend(path_segment[1:])
+                    else:
+                        full_path.extend(path_segment)
+                    
+                    current_pos = closest_item
+                    to_collect.remove(closest_item)
+                else:
+                    break
+            
+            path_exit = self.bfs(current_pos, exit_node)
+            if path_exit:
+                if full_path:
+                    full_path.extend(path_exit[1:])
+                else:
+                    full_path.extend(path_exit)
+                    
+            return full_path
